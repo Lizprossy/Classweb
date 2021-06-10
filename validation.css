@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightpink;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:100px;
+    margin: 0;
+}
+.mother{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width:400px;
+    max-width: 100%;
+    box-shadow: 0 4px 8px chocolate;
+    overflow:hidden;
+}
+.header{
+    border-bottom: 2px solid rgb(252, 191, 167);
+    padding:20px 40px;
+    position:relative;
+}
+.header h2{
+    color:blue;
+    margin:0;
+}
+
+.form{
+    padding:30px 40px;
+
+}
+
+.formControl{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.formControl label{
+    display:inherit;
+    margin-bottom: 5px;
+}
+.formControl input{
+    border:2px solid #f0f0f0;
+    border-radius: 4px;
+    display:block;
+    font-family: inherit;
+    padding:10px;
+    width:100%
+}
+.formControl i {
+    visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+.formControl.success i.fa-check-square{
+    color:green;
+    visibility: visible;
+}
+.formControl input:focus {
+	outline: 0;
+	border-color: rgb(135, 204, 164);
+}
+/*new*/
+.formControl.success input{
+    border-color:green;
+   
+}
+/*new*/
+.formControl.error input{
+    border-color:rgb(250, 29, 29);
+     
+}
+.formControl small{
+    color:red;
+    position:absolute;
+    bottom:0;
+    left:0;
+    visibility:hidden;
+}
+.formControl.error small{
+    visibility:visible;
+}
+.form button{
+    background-color:lightpink;
+    border:2px solid lightpink;
+    color:blue;
+    font-size: 14px;
+    margin-top: 20px;
+    width:100%;
+    padding: 10px;
+}

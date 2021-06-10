@@ -1,0 +1,47 @@
+p{
+    text-decoration: dotted;
+    color:white;
+}
+
+h1{
+    color:aliceblue;
+}
+h3{
+    color:#8B008B
+}
+h2{
+    color:rgba(205, 10, 85, 0.384)
+}
+
+.paragraph1{
+    text-align: center;
+    color:aqua;
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#groot{
+    text-decoration: line-through;
+}
+.pal2{
+    font-weight:400;
+    font-size: 3em;
+}
+.pal3{
+    font-size:30%;
+}
+.design1{
+    border-width: 5px;
+    border-style: double;
+   border-color: aqua;
+   float:left;
+}
+.design3{
+    margin-top: 10px;
+    border-top: 10px solid yellow;
+    padding-top: 10px;
+    border-left: 10px dotted maroon;
+    border-bottom: 10px groove pink;
+    border-right: 10px double rgb(85, 84, 84);
+    float:right;
+
+}
